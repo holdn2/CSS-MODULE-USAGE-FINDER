@@ -1,6 +1,6 @@
-# CSS Module Usage Finder
+# CSS Module Usage Finder – VSCode Extension
 
-A helpful VSCode extension for React developers who use CSS Modules.
+A helpful Visual Studio Code extension for React developers who use **CSS Modules**.
 
 This extension allows you to jump directly from a CSS class defined in a `.module.css` file to where it's used as `styles.className` in your nearby React code.
 
@@ -50,7 +50,7 @@ By pressing `Ctrl + Click` on `.button` in `Example.module.css`, you will jump t
 
 ## 🛠 Installation
 
-Install via the [VSCode Marketplace](https://marketplace.visualstudio.com/) or by running:
+Install via the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=uchan0.css-module-usage-finder) or by running:
 
 ```bash
 code --install-extension uchan0.css-module-usage-finder
@@ -60,7 +60,7 @@ code --install-extension uchan0.css-module-usage-finder
 
 ## 🔧 Feedback & Contributions
 
-Feel free to suggest improvements or report bugs via the [GitHub repository](https://github.com/your-username/css-module-usage-finder).
+Feel free to suggest improvements or report bugs via the [GitHub repository](https://github.com/holdn2/CSS-MODULE-USAGE-FINDER).
 
 ---
 
