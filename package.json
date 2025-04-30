@@ -1,6 +1,7 @@
 {
   "name": "css-module-usage-finder",
-  "displayName": "css-module-usage-finder",
+  "displayName": "CSS Module Usage Finder",
+  "publisher": "uchan0",
   "description": "Helps you jump from a .module.css class to the first usage of styles.className in nearby React files..",
   "version": "0.0.1",
   "engines": {
@@ -47,5 +48,11 @@
     "typescript": "^5.8.2",
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/holdn2/CSS-MODULE-USAGE-FINDER"
+  },
+  "icon": "images/icon.png",
+  "license": "MIT"
 }
