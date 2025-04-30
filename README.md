@@ -1,0 +1,69 @@
+# CSS Module Usage Finder
+
+A helpful VSCode extension for React developers who use CSS Modules.
+
+This extension allows you to jump directly from a CSS class defined in a `.module.css` file to where it's used as `styles.className` in your nearby React code.
+
+---
+
+## ✨ Features
+
+- Use `Ctrl + Click` on a class name in a `.module.css` file to navigate to the corresponding `styles.className` usage in `.tsx`, `.jsx`, `.ts`, or `.js` files in the same folder.
+- If no usage is found, a message like the following will appear:
+
+  ```
+  No usage of styles.YourClassName found.
+  ```
+
+---
+
+## 🔍 Example
+
+**Example.module.css**
+
+```css
+.button {
+  background: red;
+}
+```
+
+**Example.tsx**
+
+```tsx
+import styles from "./Example.module.css";
+
+export function MyComponent() {
+  return <div className={styles.button}>Click me</div>;
+}
+```
+
+By pressing `Ctrl + Click` on `.button` in `Example.module.css`, you will jump to the `styles.button` usage in the component file.
+
+---
+
+## ⚠ Limitations
+
+- Only searches within files in the **same folder** as the `.module.css` file.
+- Only matches direct usage like `styles.className`, not dynamic usages (`styles[someVar]`).
+
+---
+
+## 🛠 Installation
+
+Install via the [VSCode Marketplace](https://marketplace.visualstudio.com/) or by running:
+
+```bash
+code --install-extension uchan0.css-module-usage-finder
+```
+
+---
+
+## 🔧 Feedback & Contributions
+
+Feel free to suggest improvements or report bugs via the [GitHub repository](https://github.com/your-username/css-module-usage-finder).
+
+---
+
+## 📄 License
+
+MIT
