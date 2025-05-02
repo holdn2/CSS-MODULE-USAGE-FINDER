@@ -8,7 +8,8 @@ This extension allows you to jump directly from a CSS class defined in a `.modul
 
 ## ✨ Features
 
-- Use `Ctrl + Click` on a class name in a `.module.css` file to navigate to the corresponding `styles.className` usage in `.tsx`, `.jsx`, `.ts`, or `.js` files in the same folder.
+- - Use `Ctrl + Click` on Windows/Linux or `Cmd + Click` on macOS to jump from a class name in a `.module.css` file to its usage as `styles.className` in `.tsx`, `.jsx`, `.ts`, or `.js` files in the same folder.
+
 - If no usage is found, a message like the following will appear:
 
   ```
@@ -22,7 +23,7 @@ This extension allows you to jump directly from a CSS class defined in a `.modul
 See how easily you can jump from a CSS Module class to its usage in code:
 
 <p style="text-align: center;">
-  <img src="https://i.imgur.com/ZZqwNva.gif" width="600" alt="CSS Module Usage Finder Demo" />
+  <img src="https://i.imgur.com/HdcRBs7.gif" width="600" alt="CSS Module Usage Finder Demo" />
 </p>
 
 ## 🔍 Example
@@ -45,7 +46,7 @@ export function MyComponent() {
 }
 ```
 
-By pressing `Ctrl + Click` on `.button` in `Example.module.css`, you will jump to the `styles.button` usage in the component file.
+By pressing `Ctrl + Click` or `Cmd + Click` on `.button` in `Example.module.css`, you will jump to the `styles.button` usage in the component file.
 
 ---
 
