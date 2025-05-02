@@ -30,7 +30,7 @@ export function activate(context: vscode.ExtensionContext) {
 
             if (column !== -1) {
               const uri = vscode.Uri.file(filePath);
-              const pos = new vscode.Position(i, column);
+              const pos = new vscode.Position(i, column + 7);
               return new vscode.Location(uri, pos);
             }
           }

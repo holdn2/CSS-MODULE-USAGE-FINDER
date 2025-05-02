@@ -16,6 +16,9 @@ This extension allows you to jump directly from a CSS class defined in a `.modul
   No usage of styles.YourClassName found.
   ```
 
+> ℹ️ Make sure to import CSS Modules using `import styles from './File.module.css'`  
+> This extension only detects usage in the form of `styles.className`.
+
 ---
 
 ## 🎥 Demo
@@ -52,6 +55,7 @@ By pressing `Ctrl + Click` or `Cmd + Click` on `.button` in `Example.module.css`
 
 - Only searches within files in the **same folder** as the `.module.css` file.
 - Only matches direct usage like `styles.className`, not dynamic usages (`styles[someVar]`).
+- CSS Modules must be imported as `styles` (e.g., `import styles from './file.module.css'`). Other aliases won't be detected.
 
 ---
 
