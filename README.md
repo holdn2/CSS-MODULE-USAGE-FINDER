@@ -22,7 +22,7 @@ This extension allows you to jump directly from a CSS class defined in a `.modul
 
 See how easily you can jump from a CSS Module class to its usage in code:
 
-![Demo](https://i.imgur.com/HdcRBs7.gif)
+![Demo](https://i.imgur.com/x7bM4xj.gif)
 
 ## 🔍 Example
 
