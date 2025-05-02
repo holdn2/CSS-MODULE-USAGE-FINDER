@@ -17,6 +17,14 @@ This extension allows you to jump directly from a CSS class defined in a `.modul
 
 ---
 
+## 🎥 Demo
+
+See how easily you can jump from a CSS Module class to its usage in code:
+
+<p style="text-align: center;">
+  <img src="https://i.imgur.com/ZZqwNva.gif" width="600" alt="CSS Module Usage Finder Demo" />
+</p>
+
 ## 🔍 Example
 
 **Example.module.css**
