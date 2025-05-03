@@ -3,7 +3,7 @@
   "displayName": "CSS Module Usage Finder",
   "publisher": "uchan0",
   "description": "Helps you jump from a .module.css class to the first usage of styles.className in nearby React files..",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.75.0"
   },
