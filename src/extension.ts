@@ -7,6 +7,11 @@ export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(
     vscode.languages.registerDefinitionProvider("css", {
       provideDefinition(document, position, token) {
+        // Restrict to .module.css files only
+        if (!document.uri.fsPath.endsWith(".module.css")) {
+          return;
+        }
+
         const wordRange = document.getWordRangeAtPosition(position, /\.[\w-]+/);
         if (!wordRange) return;
 
